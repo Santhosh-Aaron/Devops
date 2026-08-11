@@ -102,4 +102,4 @@ https://dagshub.com/Yashwanth-R19/Boston-Housing-MLFlow/experiments
 
 ## 📌 Conclusion
 
-This project demonstrates a complete machine learning experimentation workflow by combining **Scikit-learn**, **XGBoost**, **MLflow**, and **DagsHub**. It highlights how experiment tracking improves reproducibility, model comparison, and overall machine learning lifecycle management.
+This project demonstrates a complete machine learning experimentation wokflow by combining **Scikit-learn**, **XGBoost**, **MLflow**, and **DagsHub**. It highlights how experiment tracking improves reproducibility, model comparison, and overall machine learning lifecycle management.
