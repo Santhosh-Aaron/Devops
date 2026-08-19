@@ -1,0 +1,6 @@
+[core]
+    remote = hf-bucket
+['remote "hf-bucket"']
+    url = s3://breast-cancer-dvc/dvc-store
+    endpointurl = https://s3.hf.co/santhoshaaron19
+    region = us-east-1
