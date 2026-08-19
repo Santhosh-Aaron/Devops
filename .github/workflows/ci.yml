@@ -11,7 +11,7 @@ on:
       - master
 
 jobs:
-  test-and-build:
+  test:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,15 +24,13 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
+        working-directory: project
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install pytest
 
       - name: Run tests
+        working-directory: project
         run: |
-          pytest
-
-      - name: Build Docker image
-        run: |
-          docker build -t breast-cancer-api .
+          PYTHONPATH=. pytest -v
